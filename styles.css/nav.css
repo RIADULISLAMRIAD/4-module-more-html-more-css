@@ -1,0 +1,31 @@
+nav > ul{
+    display: flex;
+}
+nav ul li{
+   display: list-item;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+    padding: 05px;
+}
+nav li:hover{
+    background-color:lightgray;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/*nasted mane*/
+
+nav li .riad {
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding-left: 05px;
+}
+
+nav li:hover > .riad{
+    display:block ;
+}
